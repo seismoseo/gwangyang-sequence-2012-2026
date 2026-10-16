@@ -1,0 +1,116 @@
+net,sta,site,role,dist_km,sensor,choice,first_day,last_day,in_2021_seq,in_2026_seq,coords,template_matching,response_flags
+KS,GWYB,GWYB,station,7.1,HH,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2012-12-20,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,GWYBT,GWYB,"temporary code of GWYB, merged (fills days the site's sensor lacks)",7.1,HH,by the sensor rule,2023-01-12,2023-07-03,False,False,master StationXML,N/E,
+KS,HAD,HAD,station,9.6,HG,only full-period sensor,2016-07-05,2018-07-12,False,False,master StationXML,N/E,
+KS,PHDA,PHDA,station,14.3,HG,only sensor,2022-01-05,2026-10-06,False,True,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,GMNA,GMNA,station,15.3,HG,only sensor,2018-02-01,2023-12-07,True,False,master StationXML,N/E,NO RESPONSE before 2018-03-09 (data from 2018-02-01)
+KS,BAU,BAU,station,16.6,EL,by the sensor rule,2017-01-01,2026-10-06,True,True,master StationXML,N/E,
+KS,YSU,YSU,station,16.6,EL,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2015-04-01,2017-05-10,False,False,master StationXML,N/E,
+KG,JRB,JRB,station,25.0,HG,"only sensor (coverage first: HH not eligible, data period > 365 d shorter)",2012-12-20,2026-10-06,True,True,master StationXML,N/E,
+KS,HWJA,HWJA,station,25.9,HG,only sensor,2026-01-01,2026-10-06,False,True,33 national orientation table,N/E,
+KS,NAHA,NAHA,station,27.2,HG,only full-period sensor,2018-07-12,2026-10-06,True,True,Haenam renewal: master StationXML coordinates wrong (Namhae),N/E,
+KS,NAH,NAH,station,27.2,HG,only full-period sensor,2016-07-05,2018-07-12,False,False,master StationXML,N/E,
+KS,BLLA,BLLA,station,28.5,HG,only sensor,2018-02-14,2026-10-06,True,True,master StationXML,N/E,
+KS,YESA,YESA,station,28.9,HG,only full-period sensor,2017-01-01,2026-10-06,True,True,master StationXML,N/E,
+KS,YES,YES,station,28.9,HG,only sensor,2016-07-05,2017-05-10,False,False,master StationXML,"N/E, no rotation (orientation not measured: 0 deg)",
+KS,SCYA,SCYA,station,31.2,HG,only sensor,2025-12-02,2026-10-06,False,True,33 national orientation table,N/E,NO RESPONSE before 2025-12-25 (data from 2025-12-02)
+KS,GURA,GURA,station,31.5,HG,only sensor,2025-01-07,2026-10-06,False,True,33 national orientation table,N/E,
+KS,JIN,JIN,station,32.8,HG,only sensor,2016-07-05,2017-05-10,False,False,master StationXML,N/E,
+KS,SCHA,SCHA,station,32.9,HG,only full-period sensor,2017-01-01,2026-10-06,True,True,master StationXML,N/E,
+KS,JINA,JINA,station,33.8,HG,only full-period sensor,2017-01-01,2026-10-06,True,True,master StationXML,N/E,
+KG,WDL,WDL,station,34.4,HG,only sensor,2019-12-23,2026-10-06,True,True,master StationXML,N/E,note: response epoch starts 1 d after the first data day (date conventions differ)
+KG,GSU,GSU,station,37.8,HG,"only sensor (coverage first: HH not eligible, data period > 365 d shorter)",2012-12-20,2026-10-06,True,True,master StationXML,N/E,
+KG,GRE,GRE,station,39.0,EL,"only full-period sensor (coverage first: HG not eligible, data period > 365 d shorter)",2012-12-20,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,JLSA,JLSA,station,40.3,HG,only sensor,2019-03-18,2026-10-06,True,True,master StationXML,N/E,
+KS,DSEA,DSEA,station,40.8,HG,only sensor,2025-01-07,2026-10-06,False,True,33 national orientation table,N/E,
+KS,HAIA,HAIA,station,42.8,HG,only sensor,2018-02-21,2026-10-06,True,True,master StationXML,N/E,NO RESPONSE before 2018-03-09 (data from 2018-02-21)
+KS,SCH,SCH,station,45.1,HG,only sensor,2016-07-05,2017-05-10,False,False,master StationXML,N/E,
+KS,SACA,SACA,station,47.8,HG,only full-period sensor,2017-06-08,2026-10-06,True,True,master StationXML,N/E,
+KS,SAC,SAC,station,47.8,HG,only sensor,2016-07-05,2016-07-31,False,False,master StationXML,"N/E, no rotation (orientation not measured: 0 deg)",
+KS,DASB,DASB,station,50.4,HH,by the sensor rule,2023-07-03,2026-10-06,False,True,33 national orientation table,N/E,
+KS,MNDB,MNDB,station,52.0,HH,by the sensor rule,2019-03-18,2026-10-06,True,True,master StationXML,N/E,sensitivity sign differs between epochs/sources
+KS,GKSA,GKSA,station,52.5,HG,only sensor,2019-03-18,2026-10-06,True,True,master StationXML,N/E,
+KS,BOSB,BOSB,station,54.0,HH,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2012-12-21,2023-12-06,True,False,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,GACA,GACA,station,54.3,HG,only sensor,2018-01-31,2026-10-06,True,True,master StationXML,N/E,NO RESPONSE before 2018-03-08 (data from 2018-01-31)
+KS,JUGA,JUGA,station,55.0,HG,only sensor,2025-01-07,2026-10-06,False,True,33 national orientation table,N/E,
+KS,NAWBT,NAWB,"temporary code of NAWB, merged (fills days the site's sensor lacks)",55.7,HH,by the sensor rule,2023-01-12,2023-07-03,False,False,master StationXML,N/E,
+KS,NAWB,NAWB,station,55.7,HH,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2012-12-20,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes); template repair: wiring fault (E reversed, interval, 2018-09-09..2018-10-10): reflect about 8.0",
+KS,HAMB,HAMB,station,56.8,HH,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2012-12-20,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,HACA,HACA,station,57.1,HG,only full-period sensor,2016-07-05,2026-10-06,True,True,master StationXML,N/E,
+KS,NLDA,NLDA,station,57.1,HG,only sensor,2018-02-05,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",NO RESPONSE before 2018-03-09 (data from 2018-02-05)
+KS,KH2B,KH2B,station,59.2,HH,by the sensor rule,2019-03-18,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,KOHB,KOHB,station,59.2,HH,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2012-12-20,2018-12-09,False,False,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,EURB,EURB,station,62.3,HH,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2012-12-20,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,YNDB,YNDB,station,63.3,HG,by the sensor rule,2016-07-05,2026-10-06,True,True,master StationXML,N/E,
+KS,HAMA,HAMA,station,63.7,HG,only sensor,2024-01-11,2026-10-06,False,True,33 national orientation table,N/E,NO RESPONSE before 2024-03-05 (data from 2024-01-11)
+KS,DABX,DABX,station,63.9,HG,only sensor,2025-01-07,2026-10-06,False,True,33 national orientation table,N/E,
+KS,YKDB,YKDB,station,65.1,HG,by the sensor rule,2016-07-14,2026-10-06,True,True,master StationXML,N/E,
+KS,PTYC,PTYC,station,66.9,EL,by the sensor rule,2022-01-05,2026-10-06,False,True,master StationXML,N/E,
+KS,TOY2,TOY2,station,66.9,EL,by the sensor rule,2017-06-08,2021-11-08,True,False,33 national orientation table,N/E,NO RESPONSE in any source
+KS,TOY,TOY,station,66.9,EL,only full-period sensor,2015-04-01,2016-11-17,False,False,master StationXML,N/E,
+KS,SUCA,SUCA,station,67.9,HG,only full-period sensor,2016-07-05,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,SUCAT,SUCA,"temporary code of SUCA, merged (fills days the site's sensor lacks)",67.9,HG,only sensor,2023-01-12,2023-07-03,False,False,master StationXML,N/E,
+KS,YGJA,YGJA,station,69.0,HG,only sensor,2018-02-08,2023-10-27,True,False,master StationXML,N/E,NO RESPONSE before 2018-03-09 (data from 2018-02-08)
+KS,JIBA,JIBA,station,69.5,HG,only sensor,2025-12-22,2026-10-06,False,True,33 national orientation table,N/E,note: response epoch starts 3 d after the first data day (date conventions differ)
+KS,KWJU,KWJU,station,69.6,HH,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2015-12-01,2026-10-06,True,True,master StationXML,N/E,
+KS,KWJ2,KWJ2,station,69.6,HH,by the sensor rule,2015-12-01,2026-10-06,True,True,master StationXML,N/E,
+KS,YOJA,YOJA,station,69.8,HG,only full-period sensor,2023-10-27,2026-10-06,False,True,33 national orientation table,N/E,
+KS,KCH,KCH,station,70.3,EL,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2015-04-01,2017-05-10,False,False,master StationXML,N/E,
+KS,KCH2,KCH2,station,70.3,EL,by the sensor rule,2016-05-16,2026-10-06,True,True,master StationXML,N/E,NO RESPONSE before 2016-05-29 (data from 2016-05-16)
+KS,CGPA,CGPA,station,70.5,HG,only sensor,2019-03-18,2026-10-06,True,True,master StationXML,N/E,
+KS,SAIA,SAIA,station,71.7,HG,only sensor,2025-01-07,2026-10-06,False,True,33 national orientation table,N/E,
+KS,JAPA,JAPA,station,73.3,HG,only sensor,2025-01-07,2026-10-06,False,True,33 national orientation table,N/E,
+KS,HAC,HAC,station,74.4,HG,only sensor,2016-07-05,2017-05-10,False,False,master StationXML,"N/E, no rotation (orientation not measured: 0 deg)",
+KS,HCNA,HCNA,station,74.5,HG,only full-period sensor,2017-01-01,2026-10-06,True,True,master StationXML,N/E,
+KS,JASA,JASA,station,75.3,HG,only full-period sensor,2017-06-08,2026-10-06,True,True,master StationXML,N/E,
+KS,JAS,JAS,station,75.3,HG,only sensor,2016-07-05,2016-07-31,False,False,master StationXML,"N/E, no rotation (orientation not measured: 0 deg)",
+KG,HWSB,HWSB,station,75.7,HG,by the sensor rule,2012-12-20,2026-10-06,True,True,master StationXML,N/E,
+KS,DAYAT,DAYA,"temporary code of DAYA, merged (fills days the site's sensor lacks)",77.0,HG,only sensor,2023-01-12,2023-07-03,False,False,master StationXML,N/E,
+KS,DAYA,DAYA,station,77.0,HG,only sensor,2023-07-03,2026-10-06,False,True,33 national orientation table,N/E,
+KS,GWJA,GWJA,station,78.7,HG,only sensor,2024-01-11,2026-10-06,False,True,33 national orientation table,N/E,
+KS,GWJ,GWJ,station,78.7,HG,only full-period sensor,2016-07-05,2019-03-26,False,False,master StationXML,N/E,
+KS,IMS,IMS,station,79.0,HG,only sensor,2016-07-05,2017-05-10,False,False,master StationXML,N/E,
+KS,IMSA,IMSA,station,79.0,HG,only full-period sensor,2017-01-01,2018-11-26,False,False,master StationXML,N/E,
+KS,IMSB,IMSB,station,79.0,HH,by the sensor rule,2019-03-18,2026-10-06,True,True,master StationXML,N/E,sensitivity sign differs between epochs/sources
+KS,MAS,MAS,station,79.2,EL,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2015-04-01,2017-05-10,False,False,master StationXML,N/E,
+KS,MAS2,MAS2,station,79.2,EL,by the sensor rule,2016-05-16,2018-02-20,False,False,master StationXML,N/E,NO RESPONSE before 2016-05-31 (data from 2016-05-16)
+KS,CGWB,CGWB,station,79.2,HG,by the sensor rule,2018-01-17,2026-10-06,True,True,master StationXML,N/E,
+KS,IMAX,IMAX,station,79.4,HG,only sensor,2025-01-07,2026-10-06,False,True,33 national orientation table,N/E,
+KS,CLSA,CLSA,station,80.3,HG,only full-period sensor,2019-03-18,2026-10-06,True,True,master StationXML,N/E,
+KS,KUJA,KUJA,station,81.0,HG,only full-period sensor,2016-07-05,2024-03-21,True,False,master StationXML,"N/E, templates rotated (orientation changes)",
+KG,KJM,KJM,station,81.1,EL,"only sensor (coverage first: HG not eligible, data period > 365 d shorter)",2013-11-14,2026-10-06,True,True,master StationXML,N/E,
+KS,WICA,WICA,station,81.4,HG,only sensor,2019-03-18,2026-10-06,True,True,master StationXML,N/E,
+KS,JAHA,JAHA,station,81.7,HG,only full-period sensor,2017-06-08,2026-10-06,True,True,master StationXML,N/E,
+KS,JAH,JAH,station,81.7,HG,only sensor,2016-07-05,2016-07-31,False,False,master StationXML,"N/E, no rotation (orientation not measured: 0 deg)",
+KS,KKDA,KKDA,station,82.0,HG,only sensor,2019-03-18,2026-10-06,True,True,master StationXML,N/E,
+KS,NAJ,NAJ,station,82.4,HG,only full-period sensor,2016-07-05,2018-07-13,False,False,master StationXML,N/E,
+KS,NAJA,NAJA,station,82.5,HG,only sensor,2018-07-13,2026-10-06,True,True,master StationXML,N/E,
+KS,GEJA,GEJA,station,86.8,HG,only sensor,2023-07-03,2026-10-06,False,True,33 national orientation table,N/E,
+KS,GEJAT,GEJA,"temporary code of GEJA, merged (fills days the site's sensor lacks)",86.8,HG,only sensor,2023-01-12,2023-07-03,False,False,master StationXML,N/E,
+KS,MMD,MMD,station,86.8,HH,by the sensor rule,2018-02-09,2026-10-06,True,True,master StationXML,N/E,NO RESPONSE before 2018-03-08 (data from 2018-02-09)
+KS,UICA,UICA,station,88.8,HG,only sensor,2024-01-11,2026-10-06,False,True,33 national orientation table,N/E,
+KS,MALA,MALA,station,89.6,HG,only sensor,2018-02-21,2026-10-06,True,True,master StationXML,N/E,NO RESPONSE before 2018-03-09 (data from 2018-02-21)
+KS,CWSX,CWSX,station,90.2,HG,only full-period sensor,2025-12-17,2026-10-06,False,True,33 national orientation table,N/E,note: response epoch starts 8 d after the first data day (date conventions differ)
+KS,CHRA,CHRA,station,90.3,HG,only full-period sensor,2018-02-20,2018-11-27,False,False,master StationXML,N/E,NO RESPONSE before 2018-03-09 (data from 2018-02-20)
+KS,CHRB,CHRB,station,90.3,HG,by the sensor rule,2019-03-18,2026-10-06,True,True,master StationXML,N/E,
+KS,JAGA,JAGA,station,90.8,HG,only sensor,2019-03-18,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,JEU,JEU,station,91.0,EL,only full-period sensor,2015-04-01,2016-11-17,False,False,master StationXML,N/E,
+KS,JEU2,JEU2,station,91.0,EL,by the sensor rule,2017-06-08,2026-10-06,True,True,master StationXML,N/E,
+KS,YALB,YALB,station,91.1,HG,by the sensor rule,2018-02-22,2026-10-06,True,True,master StationXML,N/E,NO RESPONSE before 2018-03-09 (data from 2018-02-22)
+KS,SIDA,SIDA,station,91.8,HG,only sensor,2025-01-07,2026-10-06,False,True,33 national orientation table,N/E,
+KS,CHR,CHR,station,92.0,HG,only full-period sensor,2016-07-05,2018-02-20,False,False,master StationXML,"N/E, no rotation (orientation not measured: 0 deg)",
+KS,GORA,GORA,station,92.2,HG,only sensor,2025-12-22,2026-10-06,False,True,33 national orientation table,N/E,note: response epoch starts 3 d after the first data day (date conventions differ)
+KS,DGHA,DGHA,station,93.8,HG,only sensor,2018-01-29,2026-10-06,True,True,master StationXML,N/E,NO RESPONSE before 2018-03-08 (data from 2018-01-29)
+KS,YOA,YOA,station,94.2,EL,by the sensor rule,2017-01-01,2024-12-18,True,False,master StationXML,N/E,
+KS,JNHA,JNHA,station,94.3,HG,only sensor,2018-01-29,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",NO RESPONSE before 2018-03-09 (data from 2018-01-29)
+KG,GHR,GHR,station,94.9,HG,only sensor,2021-01-01,2026-10-06,True,True,master StationXML,N/E,
+KS,NGJA,NGJA,station,95.0,HG,only full-period sensor,2022-01-05,2026-10-06,False,True,master StationXML,N/E,
+KS,JNYA,JNYA,station,95.4,HG,only sensor,2018-01-29,2026-10-06,True,True,master StationXML,N/E,NO RESPONSE before 2018-03-08 (data from 2018-01-29)
+KS,CHDA,CHDA,station,95.4,HG,only sensor,2019-03-18,2026-10-06,True,True,master StationXML,N/E,
+KS,DOWA,DOWA,station,95.5,HG,only sensor,2025-12-22,2026-10-06,False,True,33 national orientation table,N/E,note: response epoch starts 3 d after the first data day (date conventions differ)
+KG,IBA,IBA,station,95.8,HG,only sensor,2019-12-23,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",note: response epoch starts 1 d after the first data day (date conventions differ)
+KS,CNSA,CNSA,station,97.3,HG,only sensor,2025-12-11,2026-10-06,False,True,33 national orientation table,N/E,NO RESPONSE before 2025-12-25 (data from 2025-12-11)
+KS,YEAA,YEAA,station,97.4,HG,only sensor,2025-12-22,2026-10-06,False,True,33 national orientation table,N/E,note: response epoch starts 3 d after the first data day (date conventions differ)
+KS,DUSB,DUSB,station,99.3,HH,by the sensor rule,2016-08-04,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",
+KS,MYMA,MYMA,station,99.5,HG,only full-period sensor,2025-12-11,2026-10-06,False,True,33 national orientation table,N/E,NO RESPONSE before 2025-12-25 (data from 2025-12-11)
+KS,GDDB,GDDB,station,100.2,HG,by the sensor rule,2017-06-06,2026-10-06,True,True,master StationXML,"N/E, templates rotated (orientation changes)",

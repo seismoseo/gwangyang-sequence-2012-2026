@@ -1,0 +1,90 @@
+{
+ "inputs": [
+  {
+   "path": "detection/station_table/stations.csv",
+   "sha256": "a0a2316cc0d089cde2e088b93c6fd711a9ddda5094982118a40691bffa7b5764"
+  },
+  {
+   "path": "registry/streams.csv",
+   "sha256": "0e8a7ad34ad39c0f4ec5b318a68145810cff034d0f05580b19cddabea281da32"
+  },
+  {
+   "path": "docs/station_inventory/tables/stream_periods.csv",
+   "sha256": "202216bad7978fc48f94d92d79351913b82c6a4f73522e1322ce60b9aac1071c"
+  },
+  {
+   "path": "docs/station_inventory/tables/orientation_periods.csv",
+   "sha256": "5418209f1b346bda0e33d228b497267e48551a6dcbde1e908c1f12cbe8a0fa37"
+  },
+  {
+   "path": "registry/events.csv",
+   "sha256": "dca1b04a3de6806a808412f8bd8b506d409aa5a9c8f7ee8d27c0c38a8d6a8c42"
+  },
+  {
+   "path": "docs/decisions.csv",
+   "sha256": "95ec5e53860c3cfaafd460f62e36136802a62674ff085decf9a84d5f4be9675d"
+  },
+  {
+   "path": "/home/msseo/works/10.Earthquake_cycle_project/pipeline/runs/gwangyang_pnplus/2.HypoDD/02.dt.cc/final_locations.csv",
+   "sha256": "5526798f70cd9af7c269c50f8eace6e7e0b38f44eec71bd95336afaf8e17da58"
+  }
+ ],
+ "Figure_02_station_map": [
+  {
+   "path": "detection/station_table/stations.csv",
+   "sha256": "a0a2316cc0d089cde2e088b93c6fd711a9ddda5094982118a40691bffa7b5764"
+  },
+  {
+   "path": "registry/streams.csv",
+   "sha256": "0e8a7ad34ad39c0f4ec5b318a68145810cff034d0f05580b19cddabea281da32"
+  }
+ ],
+ "Figure_01_sequence_background": [
+  {
+   "path": "data/catalogs/necis_events_domestic_1978_20261013.csv",
+   "sha256": "e77ef736eebbf3a291eac1269b6c913a15a2a6140f1ce142656fdaf40ea14f0d"
+  },
+  {
+   "path": "/home/msseo/works/10.Earthquake_cycle_project/pipeline/runs/gwangyang_pnplus/2.HypoDD/02.dt.cc/final_locations.csv",
+   "sha256": "5526798f70cd9af7c269c50f8eace6e7e0b38f44eec71bd95336afaf8e17da58"
+  }
+ ],
+ "Figure_03_data_per_year": [
+  {
+   "path": "docs/station_inventory/tables/stream_periods.csv",
+   "sha256": "202216bad7978fc48f94d92d79351913b82c6a4f73522e1322ce60b9aac1071c"
+  },
+  {
+   "path": "data/continuous/KG_kigam_fdsn_sds/_manifest/worklist.csv",
+   "sha256": "23b9199ff2909a43007eb677b3e4d6a5719b939d93ee36d75b89fa7a6018796e"
+  }
+ ],
+ "Figure_04_episode_2021_completeness": [
+  {
+   "path": "docs/station_inventory/tables/component_audit_2021_2026.csv",
+   "sha256": "8a2651ef83b95d4e661e68d56b51aa92f952190d2d5037db918f2401b05e8889"
+  },
+  {
+   "path": "logs/necis_refetch_jobs_20261015.csv",
+   "sha256": "4c7f18178470c3446e3e636bddf9830bd6359c9706024324cc85edef449b775a"
+  }
+ ],
+ "Figure_05_orientation": [
+  {
+   "path": "docs/station_inventory/tables/orientation_periods.csv",
+   "sha256": "5418209f1b346bda0e33d228b497267e48551a6dcbde1e908c1f12cbe8a0fa37"
+  },
+  {
+   "path": "/home/msseo/works/33.KS_station_orientation/national/Table/measurements_all.csv",
+   "sha256": "abc5bcd3408e637a6bc6eba7191a848c9327c6997dd8484791e1ebd082a2b2ee"
+  },
+  {
+   "path": "data/stations/orientation_r1c/Table/measurements_r1c.csv",
+   "sha256": "ba85daddb15669d73d304426da1b00b3d901695b74c3a7710b23eccc1b0e6bac"
+  },
+  {
+   "path": "data/stations/orientation_r1c/Table/check_local_vs_stp.csv",
+   "sha256": "e50c063e3515d7ebe60a0bdad96e5097f08ff36b6503ca46aba7c2a00fa0bd93"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+# Gwangyang sequence 2012-2026: code, notebooks, decision log, station and orientation tables, and reports.
+# Waveforms, third-party catalogs and metadata, run outputs, logs and backups are not committed.
+
+# data, run outputs and logs
+/data/
+/logs/
+/pilot/*
+!/pilot/README.md
+detection/smoke_G3_20261015/*
+!detection/smoke_G3_20261015/README.md
+detection/phasenet_plus_*/
+detection/logs/
+relocation/hypodd_*/
+template_matching/logs/
+template_matching/templates_cache/
+template_matching/catalogs/
+catalogs/reference_25m/
+docs/response_inventory/merged_inventory.xml
+
+# backups kept on the server only
+.*.before_*
+**/_before_*/
+detection/station_table/stations_before_*.csv
+
+# caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# waveform files anywhere
+*.sac
+*.SAC
+*.mseed

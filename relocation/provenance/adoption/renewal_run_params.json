@@ -1,0 +1,53 @@
+{
+ "run": "Gwangyang G4 (GWANGYANG PORT of renewal R3)",
+ "hash": "d724acfddcd608dd",
+ "frozen": "2026-10-16T12:51:05",
+ "window": "2012-12-20 .. 2026-10-06",
+ "station_table": "station_table/stations.csv (build_stations_renewal.py)",
+ "PNPLUS_MIN_PROB": 0.2,
+ "HAENAM_QC": {
+  "erh": 5.0,
+  "erz": 5.0,
+  "gap": 180.0,
+  "num": 7,
+  "rms": 1.0
+ },
+ "HAENAM_QC_A": {
+  "erh": 5.0,
+  "erz": 5.0,
+  "gap": 180.0,
+  "num": 7,
+  "rms": 0.7
+ },
+ "HAENAM_QC_B": {
+  "erh": 10.0,
+  "erz": 10.0,
+  "gap": 300.0,
+  "num": 5,
+  "rms": 1.0
+ },
+ "HYP_DIS": "4 50 1 3",
+ "HYP_ZTR": "10 F",
+ "CHANNEL_POLICY": {
+  "KS": [
+   "HH",
+   "EL",
+   "HG"
+  ],
+  "KG": [
+   "HH",
+   "EL",
+   "HG"
+  ],
+  "JU": [
+   "HH"
+  ]
+ },
+ "SAMPLING_RATE": 100.0,
+ "ANTIALIAS": {
+  "freq": 45.0,
+  "corners": 8,
+  "zerophase": true
+ },
+ "weights_sha256": "f1643330e34bffaa4f7e3a5f7dd9205fb4019d76e5b9b6cb598232360d22f384"
+}

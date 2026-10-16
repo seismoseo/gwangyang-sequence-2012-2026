@@ -1,0 +1,5 @@
+network,station,sensor,date,year,doy,present,missing,episode,kma_event_day
+KS,GMNA,HG,2021-08-27,2021,239,NE,Z,2021,True
+KS,GMNA,HG,2021-08-28,2021,240,NE,Z,2021,True
+KS,BOSB,HH,2021-08-27,2021,239,NE,Z,2021,True
+KS,DUSB,HH,2021-08-20,2021,232,NE,Z,2021,False

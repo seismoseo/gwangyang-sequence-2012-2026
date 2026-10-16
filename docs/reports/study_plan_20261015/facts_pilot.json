@@ -1,0 +1,192 @@
+{
+ "pilot.n": {
+  "value": "33",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.n_seq": {
+  "value": "11",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.n_kmao": {
+  "value": "1",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.n_new": {
+  "value": "21",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.kmao": {
+  "value": "26 May 2026, 15:45 UTC, ML 1.6",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.q_kma": {
+  "value": "84 phases, a gap of 35°, ERH 0.2 km and ERZ 0.3 km",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.q_new": {
+  "value": "16 phases, a gap of 86°, ERH 0.5 km and ERZ 0.7 km",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.n_poor": {
+  "value": "9",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.e1_kma": {
+  "value": "0.29",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.e1_new": {
+  "value": "0.73",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.dd_n": {
+  "value": "31",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.dd_std": {
+  "value": "110 m east, 188 m north and 214 m in depth",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.hyp_std": {
+  "value": "749 m, 366 m and 1165 m",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.n_both": {
+  "value": "19",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.n_samesp": {
+  "value": "20",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.n_noise": {
+  "value": "19",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.n_cc07": {
+  "value": "15",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.noiseP": {
+  "value": "0.46",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.noiseS": {
+  "value": "0.41",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.fail": {
+  "value": "No. 11 (2021-08-27 02:09) and No. 12 (2021-08-27 18:44)",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.loo_rms": {
+  "value": "0.30",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.loo21": {
+  "value": "0.37",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.loo26": {
+  "value": "0.20",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.ml_new": {
+  "value": "−0.6 to 1.1",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.ml_new_med": {
+  "value": "0.3",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.low21": {
+  "value": "0.60",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.n_amp21": {
+  "value": "6",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.pre20": {
+  "value": "18 July 14:50, 19 July 02:56, 19 July 03:38 UTC",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.pre20_n": {
+  "value": "3",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.pre20_lead": {
+  "value": "1.5–2.1",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.pre20_sp": {
+  "value": "0.02",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.pre20_cc": {
+  "value": "0.83–0.88",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.pre27": {
+  "value": "09:54, 10:00, 10:10 UTC",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.pre27_n": {
+  "value": "3",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.post26": {
+  "value": "5, 9, 16 February",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.post26_n": {
+  "value": "3",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.days21": {
+  "value": "1–64 and 184–245 (1 January to 5 March and 3 July to 2 September)",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ },
+ "pilot.days26": {
+  "value": "1–51 and 140–190 (1 January to 20 February and 20 May to 9 July)",
+  "source": "notebooks/91_pilot_episode_events.ipynb",
+  "how": ""
+ }
+}

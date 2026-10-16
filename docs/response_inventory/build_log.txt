@@ -1,0 +1,64 @@
+chosen streams: 115 codes in the station table {'KS': 107, 'KG': 8}; registry/streams.csv has 115 codes, chosen sensor differs at 0 []; only in the station table (2018-2019 predecessor codes): []
+data days: 706261 channel-days in 2012-12-20..2026-10-06 (link tree data/continuous/sds_links)
+master XML: KS_KG_metadata_1.0.2.xml, created 2024-06-26T08:44:58
+KIGAM: KIGAM_KG_20261015.xml, created 2026-10-15T09:09:38
+JU StationXML: /home/msseo/works/27.Haenam_sequence/data/jnu/JU_station.xml, created 2025-12-15T06:01:23
+reader cross-check (Z, chosen sensors) vs docs/station_inventory/tables/response_epochs.csv: old 201 rows, mine 202; common 201, identical sensitivity 201; only in the old table 0; only in mine 1 (all ending before 2020-01-01, the old table's window start: True)
+NECIS RESP snapshots found: 36
+   event 2026000010                     2026-01-01 02:49:47  /home/msseo/works/10.Earthquake_cycle_project/Gwangyang_sequence/kma_waveforms/RESP/2026000010.r
+   event 2026000014                     2026-01-01 08:48:00  /home/msseo/works/10.Earthquake_cycle_project/Gwangyang_sequence/kma_waveforms/RESP/2026000014.r
+   event 2026000893                     2026-02-02 19:41:19  /home/msseo/works/10.Earthquake_cycle_project/Gwangyang_sequence/kma_waveforms/RESP/2026000893.r
+   event 2026000900                     2026-02-03 02:15:35  /home/msseo/works/10.Earthquake_cycle_project/Gwangyang_sequence/kma_waveforms/RESP/2026000900.r
+   event 2026000955                     2026-02-04 05:44:06  /home/msseo/works/10.Earthquake_cycle_project/Gwangyang_sequence/kma_waveforms/RESP/2026000955.r
+   event 2023002939                     2023-05-26 11:39:54  /home/msseo/works/10.Earthquake_cycle_project/Jangsung_cluster/kma_waveforms/RESP/2023002939.r
+   event 2023002942                     2023-05-26 17:32:12  /home/msseo/works/10.Earthquake_cycle_project/Jangsung_cluster/kma_waveforms/RESP/2023002942.r
+   event 2026002142                     2026-03-19 15:51:51  /home/msseo/works/10.Earthquake_cycle_project/Jangsung_cluster/kma_waveforms/RESP/2026002142.r
+   event 2026002145                     2026-03-19 16:04:06  /home/msseo/works/10.Earthquake_cycle_project/Jangsung_cluster/kma_waveforms/RESP/2026002145.r
+   event 2024003566                     2024-06-11 23:26:49  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003566.r
+   event 2024003567                     2024-06-11 23:32:16  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003567.r
+   event 2024003568                     2024-06-11 23:34:23  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003568.r
+   event 2024003569                     2024-06-11 22:58:32  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003569.r
+   event 2024003571                     2024-06-11 23:42:10  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003571.r
+   event 2024003572                     2024-06-11 23:50:16  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003572.r
+   event 2024003573                     2024-06-11 23:53:12  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003573.r
+   event 2024003574                     2024-06-11 23:54:30  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003574.r
+   event 2024003575                     2024-06-11 23:56:12  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003575.r
+   event 2024003576                     2024-06-11 23:39:49  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003576.r
+   event 2024003577                     2024-06-11 23:40:36  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003577.r
+   event 2024003579                     2024-06-12 00:12:18  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003579.r
+   event 2024003581                     2024-06-12 00:23:50  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003581.r
+   event 2024003584                     2024-06-12 01:00:34  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003584.r
+   event 2024003600                     2024-06-12 04:14:21  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003600.r
+   event 2024003604                     2024-06-12 04:20:41  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003604.r
+   event 2024003605                     2024-06-12 04:55:42  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003605.r
+   event 2024003609                     2024-06-12 05:59:34  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003609.r
+   event 2024003615                     2024-06-12 08:52:33  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003615.r
+   event 2024003701                     2024-06-14 20:35:11  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003701.r
+   event 2024003702                     2024-06-14 13:27:58  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003702.r
+   event 2024003714                     2024-06-15 04:29:51  /home/msseo/works/24.Slip_inversion/35.240612_Buan_EQ/resp_files/2024003714.r
+   station fetch RESP_KS_DAYA_20241223  2024-12-23  /home/msseo/works/5.P_wave_moment_tensor_inversion/Response/NECIS/RESP_KS_DAYA_20241223
+   station fetch RESP_KS_GIJA_20241223  2024-12-23  /home/msseo/works/5.P_wave_moment_tensor_inversion/Response/NECIS/RESP_KS_GIJA_20241223
+   station fetch RESP_KS_SENA_20241223  2024-12-23  /home/msseo/works/5.P_wave_moment_tensor_inversion/Response/NECIS/RESP_KS_SENA_20241223
+   station fetch RESP_KS_WAJB_20241223  2024-12-23  /home/msseo/works/5.P_wave_moment_tensor_inversion/Response/NECIS/RESP_KS_WAJB_20241223
+   station fetch extracted              2026-06-14  /home/msseo/works/27.Haenam_sequence/data/stations/responses/fetched/extracted
+   inside the two sequences {'2020': ('2021-07-01', '2021-09-30'), '2026': ('2026-01-01', '2026-02-28')}: 5
+snapshot RESP files of chosen channels: 7806 -> 393 distinct snapshot epochs
+master open epochs confirmed past the master's issue day by epoch continuity: 123
+wrote merged_inventory.xml (validated against the FDSN StationXML schema)
+read back: 636 channel epochs in 115 stations
+
+chosen streams 115: {'FULLY COVERED': 86, 'GAPS': 26, 'NO DATA': 2, 'EXCLUDED (X)': 1}; with USE_SNAPSHOTS=False: fully covered 79
+channel-days 706261: covered 692785, without response 1770 (boundary holes 0, excluded (X) 11706, partial 0); with USE_SNAPSHOTS=False: without response 6729; on snapshot epochs 7071; unconfirmed 9699; conflict 65916; sign conflict 7797; suspect 0; NECIS statements revised by NECIS later 9198
+covered channel-days by source: {'master XML': 590344, 'NECIS current': 95370, 'NECIS event RESP': 7071}
+sequence 2020 ('2021-07-01', '2021-09-30'): 61 chosen streams with data; without_response 0 streams (0 stream-days); excluded 1 streams (92 stream-days); unconfirmed 0 streams (0 stream-days); conflict 6 streams (552 stream-days); sign_conflict 1 streams (92 stream-days)
+sequence 2026 ('2026-01-01', '2026-02-28'): 82 chosen streams with data; without_response 0 streams (0 stream-days); excluded 1 streams (59 stream-days); unconfirmed 1 streams (17 stream-days); conflict 4 streams (236 stream-days); sign_conflict 1 streams (59 stream-days)
+merged epochs by rule: {'M1 master history': 213, 'M1 master history, then M5 extrapolated from 2024-06-27': 99, 'M3 NECIS/KIGAM where no master epoch is confirmed': 87, 'M2 only primary source': 72, 'M4 snapshot (PROPOSAL)': 63, 'M2 newer than the master': 54, 'M1 master history; P2 end read as through that day': 30, 'M4 snapshot (PROPOSAL), then M5 extrapolated snapshot (PROPOSAL) from 2024-06-16': 9, 'M4 snapshot (PROPOSAL), then M5 extrapolated snapshot (PROPOSAL) from 2026-03-20': 6, 'M4 snapshot (PROPOSAL), then M5 extrapolated snapshot (PROPOSAL) from 2026-02-05': 3}
+issue20 verdicts: {'same epoch': 4823, "same response; NECIS starts this epoch Nd before the primary epoch's start": 842, "same response; NECIS starts this epoch Nd after the primary epoch's start": 663, 'SAME EPOCH, DIFFERENT RESPONSE (N%) [primary epoch confirmed that day]': 508, 'EPOCH MISSING FROM THE PRIMARY SOURCES: NECIS starts a new epoch Nd after the primary epoch, response differs N% [primary epoch confirmed that day]': 498, 'NOT IN THE PRIMARY SOURCES: no primary epoch on the snapshot day': 216, "DIFFERENT RESPONSE (N%); NECIS's epoch starts Nd before the primary epoch (NECIS keeps one epoch per channel) [primary epoch confirmed that day]": 130, "same response; NECIS starts this epoch Nd before the primary epoch's start; NECIS later restated this day differently (revised)": 93, 'EPOCH MISSING FROM THE PRIMARY SOURCES: NECIS starts a new epoch Nd after the primary epoch, response differs N% [primary epoch extrapolated that day]': 21, 'same epoch; POLARITY differs': 6, 'SAME EPOCH, DIFFERENT RESPONSE (N%) [primary epoch confirmed that day]; NECIS later restated this day differently (revised)': 6}
+
+remove_response with the merged XML (2 h of one day; ratio = RMS 3-8 Hz against dividing by the full |H(5 Hz)|):
+          id        day            inventory units                                                             source  finite rms_3_8Hz  ratio result
+KS.GWYB..HHZ 2021-08-28 merged_inventory.xml   VEL                              master XML (KS_KG_metadata_1.0.2.xml)    True 6.033e-08  0.999     OK
+ KG.JRB..HGZ 2021-08-28 merged_inventory.xml   ACC                              master XML (KS_KG_metadata_1.0.2.xml)    True 3.466e-07  0.998     OK
+KS.BLLA..HGZ 2026-01-01 merged_inventory.xml   ACC                              master XML (KS_KG_metadata_1.0.2.xml)    True 1.779e-06  0.999     OK
+ KS.BAU..ELZ 2021-08-28 merged_inventory.xml   VEL                              master XML (KS_KG_metadata_1.0.2.xml)    True 7.252e-09  1.001     OK
+KS.PHDA..HGZ 2026-01-01 merged_inventory.xml   ACC NECIS current (necis_fetched_20261015/extracted/RESP.KS.PHDA..HGZ)    True 4.536e-07  1.000     OK

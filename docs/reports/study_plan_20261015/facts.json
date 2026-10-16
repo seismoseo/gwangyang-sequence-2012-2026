@@ -1,0 +1,715 @@
+{
+ "meta": {
+  "generated": "2026-10-16T16:41:02+09:00",
+  "notebook": "/home/msseo/works/73.Gwangyang_sequence/notebooks/90_study_plan_report.ipynb",
+  "project_root": "/home/msseo/works/73.Gwangyang_sequence",
+  "n_facts": 141
+ },
+ "facts": {
+  "meta.date": {
+   "value": "16 October 2026",
+   "source": "this notebook",
+   "how": ""
+  },
+  "win.start": {
+   "value": "2012-12-20",
+   "source": "docs/decisions.csv P1",
+   "how": ""
+  },
+  "win.end": {
+   "value": "2026-10-06",
+   "source": "docs/decisions.csv P1",
+   "how": ""
+  },
+  "cen.lat": {
+   "value": "35.0000",
+   "source": "decision R2",
+   "how": ""
+  },
+  "cen.lon": {
+   "value": "127.7286",
+   "source": "decision R2",
+   "how": ""
+  },
+  "seq.n": {
+   "value": "11",
+   "source": "registry/events.csv",
+   "how": ""
+  },
+  "seq.n21": {
+   "value": "6",
+   "source": "registry/events.csv",
+   "how": ""
+  },
+  "seq.n26": {
+   "value": "5",
+   "source": "registry/events.csv",
+   "how": ""
+  },
+  "seq.ml": {
+   "value": "1.1–2.2",
+   "source": "registry/events.csv",
+   "how": ""
+  },
+  "seq.t21": {
+   "value": "20 July to 28 August 2021",
+   "source": "registry/events.csv",
+   "how": "UTC"
+  },
+  "seq.t26": {
+   "value": "1 January to 4 February 2026",
+   "source": "registry/events.csv",
+   "how": "UTC"
+  },
+  "seq.big_utc": {
+   "value": "2021-08-27 22:03:22",
+   "source": "registry/events.csv",
+   "how": ""
+  },
+  "seq.big_kst": {
+   "value": "2021-08-28 07:03",
+   "source": "registry/events.csv",
+   "how": "KST = UTC + 9 h"
+  },
+  "sta.n": {
+   "value": "110",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes within 100 km, temporary codes excluded"
+  },
+  "sta.n_ks": {
+   "value": "102",
+   "source": "detection/station_table/stations.csv",
+   "how": ""
+  },
+  "sta.n_kg": {
+   "value": "8",
+   "source": "detection/station_table/stations.csv",
+   "how": ""
+  },
+  "sta.n_temp": {
+   "value": "5",
+   "source": "registry/streams.csv",
+   "how": ""
+  },
+  "sta.temp": {
+   "value": "DAYAT, GEJAT, GWYBT, NAWBT, SUCAT",
+   "source": "registry/streams.csv",
+   "how": ""
+  },
+  "sta.n_HH": {
+   "value": "14",
+   "source": "detection/station_table/stations.csv",
+   "how": "chosen sensor"
+  },
+  "sta.n_EL": {
+   "value": "14",
+   "source": "detection/station_table/stations.csv",
+   "how": "chosen sensor"
+  },
+  "sta.n_HG": {
+   "value": "82",
+   "source": "detection/station_table/stations.csv",
+   "how": "chosen sensor"
+  },
+  "sta.nearest": {
+   "value": "GWYB (7.1 km)",
+   "source": "detection/station_table/stations.csv",
+   "how": ""
+  },
+  "sta.n50_2013": {
+   "value": "4",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2013 within 50 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n50_2016": {
+   "value": "11",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2016 within 50 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n50_2021": {
+   "value": "15",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2021 within 50 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n50_2026": {
+   "value": "19",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2026 within 50 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n60_2013": {
+   "value": "8",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2013 within 60 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n60_2016": {
+   "value": "16",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2016 within 60 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n60_2021": {
+   "value": "24",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2021 within 60 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n60_2026": {
+   "value": "29",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2026 within 60 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n100_2013": {
+   "value": "11",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2013 within 100 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n100_2016": {
+   "value": "39",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2016 within 100 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n100_2021": {
+   "value": "61",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2021 within 100 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "sta.n100_2026": {
+   "value": "82",
+   "source": "detection/station_table/stations.csv",
+   "how": "codes with data in 2026 within 100 km (KG to 2024-10-31 before the KIGAM fill)"
+  },
+  "kma.n10": {
+   "value": "25",
+   "source": "NECIS domestic catalog",
+   "how": "within 10 km, 2012-12-20 .. 2026-10-13"
+  },
+  "kma.n10_seq": {
+   "value": "11",
+   "source": "NECIS domestic catalog",
+   "how": "the 11 sequence events among them"
+  },
+  "kma.n10_other": {
+   "value": "14",
+   "source": "NECIS domestic catalog",
+   "how": ""
+  },
+  "kma.n10_other_years": {
+   "value": "2014 (3), 2016 (1), 2017 (1), 2019 (2), 2020 (1), 2021 (1), 2023 (2), 2026 (3)",
+   "source": "NECIS domestic catalog",
+   "how": ""
+  },
+  "kma.n5": {
+   "value": "14",
+   "source": "NECIS domestic catalog",
+   "how": "within 5 km, 2012-12-20 .. 2026-10-13"
+  },
+  "kma.n5_extra": {
+   "value": "22 April 2019 (ML 1.0, 3.5 km); 26 June 2023 (ML 1.5, 3.5 km); 26 May 2026 (ML 1.6, 0.8 km)",
+   "source": "NECIS domestic catalog",
+   "how": ""
+  },
+  "prev.n": {
+   "value": "11",
+   "source": "gwangyang_pnplus final_locations.csv",
+   "how": ""
+  },
+  "prev.hext": {
+   "value": "141",
+   "source": "gwangyang_pnplus final_locations.csv",
+   "how": "largest horizontal distance between two events (m)"
+  },
+  "prev.zext": {
+   "value": "45",
+   "source": "gwangyang_pnplus final_locations.csv",
+   "how": "depth range (m)"
+  },
+  "prev.depth": {
+   "value": "13.9",
+   "source": "gwangyang_pnplus final_locations.csv",
+   "how": "mean depth (km)"
+  },
+  "prev.err": {
+   "value": "3.2, 2.2 and 5.5",
+   "source": "gwangyang_pnplus final_locations.csv",
+   "how": "median 95% half-widths E, N, Z (m)"
+  },
+  "prev.nboot": {
+   "value": "1,000",
+   "source": "gwangyang_pnplus final_locations.csv",
+   "how": ""
+  },
+  "smoke.kma": {
+   "value": "7 of 7",
+   "source": "notebooks/02_smoke_test.ipynb",
+   "how": ""
+  },
+  "smoke.dtmax": {
+   "value": "1.23",
+   "source": "notebooks/02_smoke_test.ipynb",
+   "how": ""
+  },
+  "smoke.epi": {
+   "value": "0.12",
+   "source": "notebooks/02_smoke_test.ipynb",
+   "how": ""
+  },
+  "smoke.depth": {
+   "value": "15.22",
+   "source": "notebooks/02_smoke_test.ipynb",
+   "how": ""
+  },
+  "smoke.dP": {
+   "value": "0.019",
+   "source": "notebooks/02_smoke_test.ipynb",
+   "how": ""
+  },
+  "smoke.dS": {
+   "value": "0.020",
+   "source": "notebooks/02_smoke_test.ipynb",
+   "how": ""
+  },
+  "smoke.npk": {
+   "value": "458",
+   "source": "notebooks/02_smoke_test.ipynb",
+   "how": ""
+  },
+  "smoke.sparse": {
+   "value": "10",
+   "source": "notebooks/02_smoke_test.ipynb",
+   "how": ""
+  },
+  "port.n_ident": {
+   "value": "95",
+   "source": "notebooks/00_infrastructure_and_port_check.ipynb",
+   "how": ""
+  },
+  "port.n_edit": {
+   "value": "12",
+   "source": "notebooks/00_infrastructure_and_port_check.ipynb",
+   "how": ""
+  },
+  "dec.n": {
+   "value": "34",
+   "source": "docs/decisions.csv",
+   "how": ""
+  },
+  "dec.n_gd": {
+   "value": "20",
+   "source": "docs/decisions.csv",
+   "how": ""
+  },
+  "dec.open": {
+   "value": "G-D12, G-D19",
+   "source": "docs/decisions.csv",
+   "how": ""
+  },
+  "aud.z0": {
+   "value": "14",
+   "source": "docs/decisions.csv G-D13",
+   "how": ""
+  },
+  "aud.w0": {
+   "value": "10",
+   "source": "docs/decisions.csv G-D13",
+   "how": ""
+  },
+  "aud.z1": {
+   "value": "4",
+   "source": "docs/decisions.csv G-D13",
+   "how": ""
+  },
+  "aud.w1": {
+   "value": "59",
+   "source": "docs/decisions.csv G-D13",
+   "how": ""
+  },
+  "aud.n26": {
+   "value": "0",
+   "source": "component_audit_2021_2026.csv",
+   "how": "partial station-days in 2026"
+  },
+  "nec.jobs": {
+   "value": "11",
+   "source": "logs/necis_refetch_jobs_20261015.csv",
+   "how": ""
+  },
+  "nec.rec": {
+   "value": "8",
+   "source": "logs/necis_refetch_jobs_20261015.csv",
+   "how": ""
+  },
+  "nec.files": {
+   "value": "18",
+   "source": "logs/necis_refetch_jobs_20261015.csv",
+   "how": "day files kept (guarded run)"
+  },
+  "chk.n": {
+   "value": "950",
+   "source": "check_local_vs_stp.csv",
+   "how": "events measured both ways and accepted by both"
+  },
+  "chk.med": {
+   "value": "0.00",
+   "source": "check_local_vs_stp.csv",
+   "how": ""
+  },
+  "chk.p95": {
+   "value": "0.10",
+   "source": "check_local_vs_stp.csv",
+   "how": ""
+  },
+  "chk.max": {
+   "value": "0.30",
+   "source": "check_local_vs_stp.csv",
+   "how": ""
+  },
+  "g2.units": {
+   "value": "110",
+   "source": "periods_r1c.csv",
+   "how": "sensors with periods from the interim G2 run"
+  },
+  "g2.periods": {
+   "value": "147",
+   "source": "periods_r1c.csv",
+   "how": ""
+  },
+  "g2.valid": {
+   "value": "144",
+   "source": "periods_r1c.csv",
+   "how": ""
+  },
+  "g2.windows": {
+   "value": "22,078",
+   "source": "measurements_r1c.csv",
+   "how": "unit-event windows measured (interim)"
+  },
+  "gwyb.t1": {
+   "value": "−125.5",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.s1": {
+   "value": "2013-01-10",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.e1": {
+   "value": "2016-09-23",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.t2": {
+   "value": "+94.6",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.s2": {
+   "value": "2016-10-15",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.e2": {
+   "value": "2017-07-26",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.t3": {
+   "value": "−95.2",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.s3": {
+   "value": "2017-08-11",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.e3": {
+   "value": "2023-07-02",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.t4": {
+   "value": "+45.6",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.s4": {
+   "value": "2023-07-03",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "gwyb.e4": {
+   "value": "2026-10-06",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "ori.n_meas": {
+   "value": "104",
+   "source": "orientation_periods.csv",
+   "how": "chosen sensors with at least one measured period"
+  },
+  "ori.n_none": {
+   "value": "6",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "ori.none": {
+   "value": "CHR, HAC, JAH, JAS, SAC, YES",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "ori.n_changed60": {
+   "value": "9",
+   "source": "orientation_periods.csv",
+   "how": "chosen sensors within 60 km with two or more periods"
+  },
+  "ori.n60": {
+   "value": "39",
+   "source": "orientation_periods.csv",
+   "how": ""
+  },
+  "stat.time": {
+   "value": "2026-10-16 16:40 KST",
+   "source": "this notebook",
+   "how": ""
+  },
+  "stat.pull_done": {
+   "value": "760",
+   "source": "logs/mirror_pull_20261015b.log",
+   "how": ""
+  },
+  "stat.pull_tot": {
+   "value": "760",
+   "source": "logs/mirror_pull_20261015b.log",
+   "how": ""
+  },
+  "stat.pull_tb": {
+   "value": "6.9",
+   "source": "logs/mirror_pull_*.log",
+   "how": "TB fetched (bulk finished jobs + coverage-first supplement)"
+  },
+  "stat.kigam_req": {
+   "value": "3,543",
+   "source": "logs/kigam_fdsn_pull_20261015b.log",
+   "how": ""
+  },
+  "stat.kigam_files": {
+   "value": "10,629",
+   "source": "logs/kigam_fdsn_pull_20261015b.log",
+   "how": ""
+  },
+  "stat.kigam_err": {
+   "value": "0",
+   "source": "logs/kigam_fdsn_pull_20261015b.log",
+   "how": ""
+  },
+  "stat.verify_missing": {
+   "value": "222",
+   "source": "logs/mirror_verify_20261016.log",
+   "how": "all of 2026-10-08, after the window"
+  },
+  "stat.freeze": {
+   "value": "d724acfddcd608dd",
+   "source": "renewal_run_params.json",
+   "how": ""
+  },
+  "stat.freeze_time": {
+   "value": "2026-10-16 12:51",
+   "source": "renewal_run_params.json",
+   "how": ""
+  },
+  "stat.links": {
+   "value": "711,715",
+   "source": "logs/link_all_20261016.log",
+   "how": ""
+  },
+  "aud.all": {
+   "value": "8",
+   "source": "component audit 2012-2026",
+   "how": ""
+  },
+  "p.pmin": {
+   "value": "0.2",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.fs": {
+   "value": "100",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.n_picks": {
+   "value": "6",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.n_p": {
+   "value": "3",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.n_s": {
+   "value": "3",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.box_lat": {
+   "value": "34.30–35.70° N",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.box_lon": {
+   "value": "126.93–128.53° E",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.gap": {
+   "value": "180",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.num": {
+   "value": "7",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.rms": {
+   "value": "1",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.err": {
+   "value": "5",
+   "source": "detection/pipeline/config.py",
+   "how": ""
+  },
+  "p.xc_band": {
+   "value": "5–20",
+   "source": "relocation/code/haenam_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.xc_cc": {
+   "value": "0.7",
+   "source": "relocation/code/haenam_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.xc_win": {
+   "value": "0.5",
+   "source": "relocation/code/haenam_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.xc_interp": {
+   "value": "1,000",
+   "source": "relocation/code/haenam_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.obscc": {
+   "value": "4",
+   "source": "relocation/code/haenam_dl_cluster_config.py",
+   "how": ""
+  },
+  "p.radius": {
+   "value": "5",
+   "source": "relocation/code/relocation_selection.py",
+   "how": ""
+  },
+  "p.fmf_win": {
+   "value": "4",
+   "source": "template_matching/config.py",
+   "how": ""
+  },
+  "p.fmf_pre": {
+   "value": "1",
+   "source": "template_matching/config.py",
+   "how": ""
+  },
+  "p.fmf_minsta": {
+   "value": "4",
+   "source": "template_matching/config.py",
+   "how": ""
+  },
+  "p.fmf_band": {
+   "value": "5–20",
+   "source": "template_matching/run_G7.sh",
+   "how": ""
+  },
+  "p.fmf_mad": {
+   "value": "10",
+   "source": "template_matching/run_G7.sh",
+   "how": ""
+  },
+  "p.fmf_snr": {
+   "value": "2",
+   "source": "template_matching/run_G7.sh",
+   "how": ""
+  },
+  "p.ml_snr": {
+   "value": "2",
+   "source": "magnitudes/local_ml/full_period/full_magnitudes.py",
+   "how": ""
+  },
+  "p.ml_nsta": {
+   "value": "3",
+   "source": "magnitudes/local_ml/full_period/full_magnitudes.py",
+   "how": ""
+  },
+  "data.sd_mara": {
+   "value": "237,867",
+   "source": "stream_periods.csv",
+   "how": "station-days of the chosen sensors on MARA"
+  },
+  "data.sd_kigam": {
+   "value": "3,543",
+   "source": "KIGAM worklist",
+   "how": ""
+  },
+  "data.n100_2013": {
+   "value": "11",
+   "source": "Figure 3",
+   "how": ""
+  },
+  "data.n100_2021": {
+   "value": "61",
+   "source": "Figure 3",
+   "how": ""
+  },
+  "data.n100_max": {
+   "value": "82",
+   "source": "Figure 3",
+   "how": ""
+  },
+  "f4.nsta": {
+   "value": "61",
+   "source": "link tree",
+   "how": "chosen sensors with data in Jul-Sep 2021"
+  },
+  "f4.pct": {
+   "value": "99.8",
+   "source": "link tree",
+   "how": "% station-days complete"
+  },
+  "f4.n_nec": {
+   "value": "18",
+   "source": "link tree",
+   "how": "station-days complete only with NECIS"
+  },
+  "f4.n_part": {
+   "value": "4",
+   "source": "link tree",
+   "how": ""
+  },
+  "f4.n_none": {
+   "value": "8",
+   "source": "link tree",
+   "how": ""
+  },
+  "gwyb.n_ev": {
+   "value": "1,404",
+   "source": "measurements_all.csv + measurements_r1c.csv",
+   "how": "accepted GWYB.HH measurements"
+  },
+  "gwyb.n_new": {
+   "value": "9",
+   "source": "measurements_r1c.csv",
+   "how": ""
+  }
+ }
+}

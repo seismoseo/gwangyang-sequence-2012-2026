@@ -1,0 +1,42 @@
+% written by notebooks/90_study_plan_report.ipynb from docs/decisions.csv; do not edit by hand
+\begin{longtable}{@{}p{1.0cm}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{8.6cm}p{1.8cm}@{}}
+\toprule
+ID & Setting & Gwangyang value & Status \\
+\midrule
+\endhead
+P1 & study window & 2012-12-20 (first KS.GWYB day) .. 2026-10-06 (last day on MARA, 2026-10-15 listing) & decided \\
+P2 & machine and project folder & moho /home/msseo/works/73.Gwangyang\_sequence & decided \\
+P3 & method rules & the same: one sensor per station, one dated orientation table, S dt.cc on T, template N/E turned to each scanned day, ML without station terms & decided \\
+P4 & networks & KS + KG where data exist; JU not used & decided \\
+R1 & association box & 34.30-35.70 N, 126.93-128.53 E & rule \\
+R2 & source centroid & 35.0000 N 127.7286 E & rule \\
+R3 & relocation selection & within 5 km of 35.0000 N 127.7286 E, depth $\geq$ 10 km, same quality gate (relocation\_selection.py) & rule \\
+R4 & station set & 115 KS/KG codes within 100 km with data in the window (107 KS, 8 KG; 5 of them temporary codes of 2023; KS.KWJ excluded, G-D20) & rule \\
+R5 & known events & registry/events.csv: the 11 KMA events of the two episodes (UTC); all 14 KMA events within 5 km in the window (NECIS catalog to 2026-10-13) are the G4 recovery check & rule \\
+G-D1 & sensor per station & the sensor rule for every multi-sensor station (after the final G2 run of 2026-10-16 it applies everywhere; GWYBT and NAWBT resolved); no choice changed by G2: HG 85, HH 16, EL 14 (temporary codes included) & default \\
+G-D1b & sensor rule over a 14-year window: coverage first & a sensor whose data period is > 365 d shorter than the station's longest sensor is not eligible; the discontinuity rule decides among the rest & default \\
+G-D2 & unmeasured orientation spans & the same; G2 measures the gaps it can (GWYB 2012-12..2013-01, KS HG 2016-2017, after the national table ends) & default \\
+G-D3 & relocation depth floor & 10 km & default \\
+G-D4 & template-matching station subset & within 60 km (the plan default), one sensor each; temporary codes read as their site; template\_matching/stations\_G7\_60km.csv & default \\
+G-D5 & mirror bandwidth & 8 jobs, rsync bwlimit 25 MB/s each, one ssh connection per job; measured total about 59 MB/s (the MARA-moho link limit) & default \\
+G-D6 & template-matching threshold & 10 x MAD per configuration segment, no floor (Imsil D23); compared on the 2021 and 2026 days before the long scan & default \\
+G-D7 & temporary codes (2023: GWYBT, NAWBT, SUCAT, DAYAT, GEJAT) & merged: linked only on days the site's chosen sensor lacks & default \\
+G-D8 & KG after 2024-10-31 & superseded by G-D14 (KIGAM FDSN fill of the chosen KG sensors) & superseded \\
+G-D10 & predecessor codes at one site & older code linked until the day before its successor starts (11 codes); KWJU and KWJ2 both used (renewal decision B) & default \\
+G-D11 & KG stations also filed under KS on MARA (2017) & KG used; the KS copies (GRE, GSU, HDB, JRB, MUN, YSB) ignored & rule \\
+G-D12 & 20 Hz SL channels (YSU, TOY, KCH, MAS, JEU before 2015-04; GRE, KJM) & not used: the frozen PhaseNet+ runs at 100 Hz and the 5-20 Hz cross-correlation band exceeds SL's 10 Hz Nyquist & open \\
+G-D13 & station-days with a missing component on MARA & audit every chosen station-day after the pull; re-fetch from NECIS for the 2021 and 2026 episode days (KMA source archive gaps); elsewhere the components present are used, as the frozen pipeline does & default \\
+G-D14 & KG data after 2024-10-31 & the same tool, only the chosen sensor of each KG station (station table Sensor): JRB, WDL, GSU (HG) and GRE, KJM (EL) 2024-11-01..2026-10-06; HWSB, GHR, IBA (HG) only 2026-10-01..10-06, as MARA holds them through 2026-09-30 (the Haenam R1a fill delivered to MARA) & default \\
+G-D15 & template-matching scan settings other than the threshold & the same; period 2012-12-20..2026-10-06; templates = focused 25 m set of the G5 run (catalogs/templates/build\_template\_catalog.py); picks from that run only & default \\
+G-D16 & 25 m reference adoption & the same definitions anchored on the 2021 ML 2.2 (2021-08-27 22:03:22 UTC); eras before 2021 / 2021 episode (Jul-Sep) / interval / 2026 episode (Jan-Feb) / after & default \\
+G-D17 & NAHA in the local magnitudes & NAHA kept: the station table carries its corrected site (34.8167 N, 127.9261 E), and the SAC exports take station coordinates from the station table & default \\
+G-D18 & joint relocation of the template-matching detections (G8) & Imsil D22 with S on T (R/T exported at each detection origin), each detection exported with the station table of its own year, and the G5 onset window for the 2021 ML 2.2 when it is a reference & default \\
+G-D19 & templates excluded from the template-matching catalog & re-derived at G7 with the same test on the Gwangyang templates; empty until then & open \\
+G-D20 & station codes excluded for unusable data & KS.KWJ excluded from the inventory and station table & default \\
+G1 & data (result) & MARA pull 717,147 files (6,274.6 GB) + coverage-first supplement 64,336 files (620.7 GB), 0 problems; verify: only 2026-10-08 missing (after the window); KIGAM 10,629 files, 0 errors; NECIS 9 of 11 gap requests recovered; link tree 711,715 links, check PASS & result \\
+G2 & orientation (result) & 22,078 station-teleseism windows measured from local day files; 147 P\_minT periods for 110 sensors (144 valid); local vs national: 950 events accepted by both, |diff| median 0.00, 95\% 0.10, max 0.30 deg; 6 chosen sensors unmeasured (YES, SAC, HAC, JAS, JAH, CHR: accelerometers of 2016-2018) & result \\
+G3 & smoke test (2021-08-27/28, 2026-01-01, 2013-07-19) & PASS: 7/7 KMA events within 1.23 s; ML 2.2 0.12 km from the earlier relocation (depth 15.2 km HYPOINVERSE); PhaseNet+ - manual median |dt| P 0.019 s, S 0.020 s (n 458) & result \\
+G4-freeze & detection parameter freeze & hash d724acfddcd608dd (config, core, pick augmentation, station table of 115 codes, PhaseNet+ weights sha f1643330...), 2026-10-16 12:51; smoke-test outputs moved to detection/smoke\_G3\_20261015 & result \\
+G6-resp & merged response inventory (result) & docs/response\_inventory/merged\_inventory.xml: 636 channel epochs in 115 stations; 692,785 of 706,261 channel-days covered (98.1 percent); both episodes without a day lacking a response (2021: 61 streams, 2026: 82); 1,770 channel-days without response (station starts before their metadata in early 2018, YSU 2016, SCYA 2025-12, HAMA 2024-01..03); KWJU excluded (neither source fits its data, as in Haenam); remove\_response spot checks at 5 channels give ratios 0.998-1.001 & result \\
+\bottomrule
+\end{longtable}

@@ -1,0 +1,13 @@
+product,template,kind,note
+dl_continuous,{ROOT}/data/continuous/sds_links,dir,"symlink tree of the chosen sensors (detection/tools/link_continuous.py)"
+dl_station_table,{ROOT}/detection/station_table/stations.csv,file,"one chosen sensor per station (detection/station_table/build_stations_renewal.py)"
+dl_catalog,{ROOT}/catalogs/Gwangyang_DL_catalog_2012-2026.csv,file,"deep-learning catalog with QC tiers"
+orientation_periods,{ROOT}/docs/station_inventory/tables/orientation_periods.csv,file,"the one dated orientation table: 33 national + G2 measurements, dated by rule #25 (build_station_inventory.py)"
+kma_national_catalog,{ROOT}/data/catalogs/kma_entire_catalog_260309.csv,file,"KMA catalog (KST); copied from 72.2025_Imsil_swarm/data/catalogs"
+reference_25m_dir,{ROOT}/catalogs/reference_25m,dir,"25 m reference set of the DL relocation"
+tm_templates_195,{ROOT}/catalogs/templates/Gwangyang_templates_ref25.csv,file,"template-matching templates (product name kept from Haenam for the copied code)"
+kma_necis_domestic,{ROOT}/data/catalogs/necis_events_domestic_1978_20261013.csv,file,"KMA domestic catalog via NECIS (origin_utc) to 2026-10-13; copy of works/Claude/data/necis/catalog"
+wf_dl_2012_2026,{ROOT}/relocation/hypodd_dl_2012-2026/waveforms_100km,dir,"per-event SAC exports of the G5 relocation (picks for the templates)"
+reloc_final_run,{ROOT}/relocation/hypodd_dl_2012-2026,dir,"the G5 relocation run (magnitudes/local_ml/full_period/full_magnitudes.py reads its waveforms_100km)"
+dl_relocated_full,{ROOT}/relocation/hypodd_dl_2012-2026/haenam_dl_relocated.csv,file,"relocated catalog of the G5 run (input of the G6 magnitudes)"
+wf_dl_2026only_481ev,{ROOT}/relocation/hypodd_dl_2012-2026/waveforms_100km,dir,"name required at import by the copied magnitudes/local_ml/haenam_magnitudes.py; full_magnitudes.initialize replaces it with the G5 exports"
