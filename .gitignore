@@ -19,6 +19,8 @@ docs/response_inventory/merged_inventory.xml
 
 # backups kept on the server only
 .*.before_*
+.*.bak*
+*.bak
 **/_before_*/
 detection/station_table/stations_before_*.csv
 
